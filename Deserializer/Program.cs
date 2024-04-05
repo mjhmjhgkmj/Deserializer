@@ -74,8 +74,6 @@ static public class Program
 
 static public class JsonDeserializer
 {
-    //public record JsonValue(object? Value);
-
     private static object? ParseValue(string input) =>
         input switch
         {
